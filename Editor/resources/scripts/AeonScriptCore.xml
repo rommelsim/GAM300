@@ -1,0 +1,816 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AeonScriptCore</name>
+    </assembly>
+    <members>
+        <member name="M:AeonScriptCore.AeonBehaviour.#ctor">
+            <summary>
+            Recommend to use OnCreate to initialize variables. Most importantly, retrieving components MUST be done in OnCreate
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.AeonBehaviour.OnCreate">
+            <summary>
+            Called only once when this script is instantiated. Instantiate occurs either on Play in editor mode or if the script was added during gameplay
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.AeonBehaviour.OnCachedSceneActive">
+            <summary>
+            Called only when a cached scene is made the active scene. It's not called when you load a scene for the first time
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.AeonBehaviour.OnCachedSceneInactive">
+            <summary>
+            Called only when a cached scene is no longer the active scene, that is when another scene replaces it as the active scene, making the current cached scene go into the background
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.AeonBehaviour.Update">
+            <summary>
+            Runs after the Collision and Trigger events
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.AeonBehaviour.OnCollisionEnter(System.UInt32)">
+            <summary>
+            Runs on the first frame that a collision occurred
+            </summary>
+            <param name="otherEntityID">The entity ID of the other collider</param>
+        </member>
+        <member name="M:AeonScriptCore.AeonBehaviour.OnCollisionUpdate(System.UInt32)">
+            <summary>
+            Runs while collision happens
+            </summary>
+            <param name="otherEntityID">The entity ID of the other collider</param>
+        </member>
+        <member name="M:AeonScriptCore.AeonBehaviour.OnCollisionExit(System.UInt32)">
+            <summary>
+            Runs on the frame that a collision ended
+            </summary>
+            <param name="otherEntityID">The entity ID of the other collider</param>
+        </member>
+        <member name="M:AeonScriptCore.AeonBehaviour.OnTriggerEnter(System.UInt32)">
+            <summary>
+            Runs on the first frame that this entity's collider entered a trigger
+            </summary>
+            <param name="triggerEntityID">The entity ID of the trigger</param>
+        </member>
+        <member name="M:AeonScriptCore.AeonBehaviour.OnTriggerExit(System.UInt32)">
+            <summary>
+            Runs on the frame that this entity's collider exited a trigger
+            </summary>
+            <param name="triggerEntityID">The entity ID of the trigger</param>
+        </member>
+        <member name="T:AeonScriptCore.HideFromEditor">
+            <summary>
+            An attribute that hides a class's public field/variable from serialization and being exposed to the Editor
+            </summary>
+        </member>
+        <member name="T:AeonScriptCore.ShowInEditor">
+            <summary>
+            An attribute that makes a class's public field/variable visible for serialization and exposed to the Editor
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.Audio.GamePauseAllSounds">
+            <summary>
+            You should call it only when you pause the game via GameState.IsPaused
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.Audio.GameUnpauseAllSounds">
+            <summary>
+            You should call it only when you unpause the game via GameState.IsPaused
+            </summary>
+        </member>
+        <member name="T:AeonScriptCore.IComponentBuilder">
+            <summary>
+            Abstract class for all component builders
+            </summary>
+        </member>
+        <member name="T:AeonScriptCore.TransformBuilder">
+            <summary>
+            Create a builder containing information for the Transform component. Used in EntityBuilder.
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.TransformBuilder.#ctor(AeonScriptCore.Transform)">
+            <summary>
+            Create a TransformBuilder from an existing entity's Transform component
+            </summary>
+            <param name="transComp">A</param>
+        </member>
+        <member name="M:AeonScriptCore.TransformBuilder.#ctor">
+            <summary>
+            Sets the position and rotation to 0 and scale to 1
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.TransformBuilder.SetPosition(AeonScriptCore.Vector3)">
+            <summary>
+            Set the position
+            </summary>
+            <param name="_position"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.TransformBuilder.SetScale(AeonScriptCore.Vector3)">
+            <summary>
+            Set the scaling
+            </summary>
+            <param name="_scale"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.TransformBuilder.SetRotation(AeonScriptCore.Vector3)">
+            <summary>
+            Set the rotation
+            </summary>
+            <param name="_rotation">The angle values are in radians</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:AeonScriptCore.RigidBodyBuilder" -->
+        <!-- Badly formed XML comment ignored for member "M:AeonScriptCore.RigidBodyBuilder.#ctor" -->
+        <member name="M:AeonScriptCore.ColliderBuilder.#ctor">
+            <summary>
+            Sets is trigger to false, offset to Zero'ed values and collider shape to cube with half size of 0.5
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.ColliderBuilder.SetIsTrigger(System.Boolean)">
+            <summary>
+            Sets the is trigger property of the collider. If boolean is true, it means it is a trigger and no collision will occur. Otherwise, it means a collision will occur.
+            </summary>
+            <param name="isTrigger"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.ColliderBuilder.SetOffet(AeonScriptCore.Vector3)">
+            <summary>
+            Sets the offset of the collider shape relative to the entity's position
+            </summary>
+            <param name="offset"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.ColliderBuilder.SetShape(AeonScriptCore.ColliderBuilder.ColliderShapeBuilder)">
+            <summary>
+            Set the shape of the collider using one of three available shape builders: CubeColliderShapeBuilder, SphereColliderShapeBuilder, CapsuleColliderShapeBuilder
+            </summary>
+            <param name="shapeBuilder">  </param>
+            <returns></returns>
+        </member>
+        <member name="T:AeonScriptCore.ColliderBuilder.ColliderShapeBuilder">
+            <summary>
+            Base class for all collider shape builders to inherit from
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.ColliderBuilder.ColliderShapeBuilder.GetShapeType">
+            <summary>
+            Quick way to get the shape type of the builder
+            </summary>
+            <returns>An enum value from ColliderShapeType</returns>
+        </member>
+        <member name="M:AeonScriptCore.ColliderBuilder.CubeShapeBuilder.#ctor">
+            <summary>
+            Default constructor, sets the half size to 0.5
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.ColliderBuilder.CubeShapeBuilder.SetHalfSize(AeonScriptCore.Vector3)">
+            <summary>
+            Set the size of the cube collision box, values are of half-size.<br/>
+            So if your desired box size is a cube of size 1.0, the half size value is 0.5
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.ColliderBuilder.SphereShapeBuilder.#ctor">
+            <summary>
+            Default constructor, sets the Radius to 1.0
+            </summary>
+        </member>
+        <member name="T:AeonScriptCore.RenderBuilder">
+            <summary>
+            Create a builder containing information for the Render component. Used in EntityBuilder.<br/>
+            By default, the Shininess is set to 0.5, Specular Path to empty string
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.RenderBuilder.#ctor(System.String,System.String)">
+            <summary>
+            Construct the RenderBuilder by providing the model and diffuse texture filepaths
+            </summary>
+            <param name="modelPath">Path to a model file, it is relative to the game directory, that is you must provide the path that begins with "./resources/..."</param>
+            <param name="diffusePath">Path to a diffuse texture, it is relative to the game directory, that is you must provide the path that begins with "./resources/..."</param>
+        </member>
+        <member name="M:AeonScriptCore.RenderBuilder.SetSpecularPath(System.String)">
+            <summary>
+            Sets the specular of the model
+            </summary>
+            <param name="specularPath">Path to a specular texture, it is relative to the game directory, that is you must provide the path that begins with "./resources/..."</param>
+            <returns></returns>
+        </member>
+        <member name="T:AeonScriptCore.UIBuilder">
+            <summary>
+            Create a builder containing information for the UI component. Used in EntityBuilder.<br/>
+            By default, the FormatType is Word, Layer is Default, Order is 0, Texture and Text strings are empty, Opacity is 1.0, and TextColor is White.
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.UIBuilder.SetFormat(AeonScriptCore.FormatType)">
+            <summary>
+            Set the type of UI to render, an image or text
+            </summary>
+            <param name="format"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.UIBuilder.SetLayer(AeonScriptCore.LayerType)">
+            <summary>
+            Sets the layer that the UI should render in.
+            </summary>
+            <param name="layer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.UIBuilder.SetOrder(System.UInt32)">
+            <summary>
+            Set the order of the UI component
+            </summary>
+            <param name="order">The smaller the number, the closer it is to the screen. The bigger the number, the further it is, that is it will be behind other UI that has a smaller order number</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.UIBuilder.SetTexture(System.String)">
+            <summary>
+            Set the image being rendered. This will take effect only if the Format is set to Image.
+            </summary>
+            <param name="texture">Path to an image, it is relative to the game directory, that is you must provide the path that begins with "./resources/..."</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.UIBuilder.SetOpacity(System.Single)">
+            <summary>
+            Sets the opacity of the UI component, regardless of Format. 
+            </summary>
+            <param name="opacity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.UIBuilder.SetText(System.String)">
+            <summary>
+            Set the text that will be displayed. This will take effect only if the Format is set to Word.
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.UIBuilder.SetTextColor(AeonScriptCore.Vector3)">
+            <summary>
+            Set the color of the text being rendered. This will take effect only if the Format is set to Word.
+            </summary>
+            <param name="color">Color of the text, in rgb values, ranges from 0.0f to 1.0f</param>
+            <returns></returns>
+        </member>
+        <member name="T:AeonScriptCore.BehaviourBuilder">
+            <summary>
+            Create a builder containing information for the Behaviour component. Used in EntityBuilder.<br/>
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.BehaviourBuilder.AddScript``1">
+            <summary>
+            Adds the full name of a AeonBehaviour class into a List of strings
+            </summary>
+            <typeparam name="T">A type that extends AeonBehaviour, the desired script you wish to add to the Behaviour component.</typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:AeonScriptCore.AudioBuilder">
+            <summary>
+            Create a builder containing information for the Audio component. Used in EntityBuilder.<br/>
+            By default, the Volume, Pitch and Pan are 1.0
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.AudioBuilder.#ctor(AeonScriptCore.Audio.ChannelType,System.String,System.Single)">
+            <summary>
+            Construct the AudioBuilder by providing the channel type and sound's filepath, note that the audio will not be play automatically, you need to do it in the Entity.Create function call
+            </summary>
+            <param name="channelType">The type of audio, bgm or sfx</param>
+            <param name="soundFilepath">Need to begin your filepath with ".\\resources\\audios\\..."</param>
+            <param name="volume">Optional parameter to set the volume</param>
+        </member>
+        <member name="M:AeonScriptCore.AudioBuilder.SetPan(System.Single)">
+            <summary>
+            Sets the panning property of the audio
+            </summary>
+            <param name="pan">Range from 0.0 to 1.0</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.AudioBuilder.SetPitch(System.Single)">
+            <summary>
+            Sets the pitch property of the audio
+            </summary>
+            <param name="pitch">Range from 0.0 to 1.0</param>
+            <returns></returns>
+        </member>
+        <member name="T:AeonScriptCore.ParticlesBuilder">
+            <summary>
+            Create a builder containing information for the Particles component. Used in EntityBuilder.<br/>
+            By default, the Max Particles is 200, Particle Spawn Rate is 2, Particle Life is 1
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.ParticlesBuilder.#ctor(System.UInt32,System.UInt32)">
+            <summary>
+            Constructor sets the max particles and spawn rate
+            </summary>
+            <param name="maxParticles">Max number of particles that can spawn at any one time</param>
+            <param name="particleSpawnRate">The number of particles that spawn per frame</param>
+        </member>
+        <member name="M:AeonScriptCore.ParticlesBuilder.SetParticleLife(System.Single)">
+            <summary>
+            Set the particle life. How long can the particles survive?
+            </summary>
+            <param name="particleLife">Life duration of the particles, time unit in seconds</param>
+            <returns></returns>
+        </member>
+        <member name="P:AeonScriptCore.Transform.Rotation">
+            <summary>
+            Angle unit is in degrees
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.Collider.ShapeType">
+            <summary>
+            The shape type of the collider: cube, sphere, capsule or none
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.Collider.IsTrigger">
+            <summary>
+            Is the collider a trigger box or a collidable box?
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.Collider.Offset">
+            <summary>
+            The collider's offset from the position of the entity
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.Collider.GetColliderShape">
+            <summary>
+            Get the collider shape. If the component does not have a shape, null is returned
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:AeonScriptCore.Render.ModelPath">
+            <summary>
+            You can pass the path relative to the game, that is your string will begin with "./resources/..."
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.Render.DiffuseTexturePath">
+            <summary>
+            You can pass the path relative to the game, that is your string will begin with "./resources/..."
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.Render.SpecularTexturePath">
+            <summary>
+            You can pass the path relative to the game, that is your string will begin with "./resources/..."
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.Particles.SpawnParticleRate">
+            <summary>
+            The number of particles to spawn per frame
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.Particles.ParticleLife">
+            <summary>
+            The initial lifetime of the particles, time unit is in seconds
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.UI.Order">
+            <summary>
+            Order starts from smallest to biggest, that is the UI with smallest order is closest to the screen. On the other hand, the bigger the order the further it is from the screen, it would be rendered behind other smaller order UI
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.UI.Texture">
+            <summary>
+            You can pass the path relative to the game, that is your string will begin with "./resources/..."
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.UI.TextColor">
+            <summary>
+            Red, Green, Blue in range of 0.0f to 1.0f. You can divide integer rgb code by 255 to obtain the decimal value.
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.Entity.Create(AeonScriptCore.EntityBuilder,System.Action{AeonScriptCore.Entity})">
+            <summary>
+            Creates an entity
+            </summary>
+            <param name="entityBuilder">Instance of an entity builder</param>
+            <param name="onCreateEntityAction"></param>
+        </member>
+        <member name="M:AeonScriptCore.Entity.Destroy(AeonScriptCore.Entity)">
+            <summary>
+            Destroy the desired entity if you have the Entity instance
+            </summary>
+            <param name="entity">The instance of an entity</param>
+        </member>
+        <member name="M:AeonScriptCore.Entity.Destroy(System.UInt32)">
+            <summary>
+            Destroy the desired entity using its id
+            </summary>
+            <param name="entityId">The id of an entity</param>
+        </member>
+        <member name="M:AeonScriptCore.Entity.IsAlive(AeonScriptCore.Entity)">
+            <summary>
+            Check if an entity is alive, more reliable than the null check. Entity variant
+            </summary>
+            <param name="entity">The Entity to check for</param>
+            <returns>A boolean is returned. True if the entity is alive, false otherwise.</returns>
+        </member>
+        <member name="M:AeonScriptCore.Entity.IsAlive(System.UInt32)">
+            <summary>
+            Check if an entity is alive, more reliable than the null check. EntityID variant
+            </summary>
+            <param name="entityId">Id of an Entity to check for</param>
+            <returns>A boolean is returned. True if the entity is alive, false otherwise.</returns>
+        </member>
+        <member name="M:AeonScriptCore.Entity.GetEntity(System.UInt32)">
+            <summary>
+            Get an Entity using their id
+            </summary>
+            <param name="entityId">An entity ID</param>
+            <returns>An instance to the Entity</returns>
+        </member>
+        <member name="M:AeonScriptCore.Entity.FindEntityByName(System.String)">
+            <summary>
+            Find an Entity using their name
+            </summary>
+            <param name="name">An entity's name</param>
+            <returns>An instance to the Entity</returns>
+        </member>
+        <member name="M:AeonScriptCore.Entity.GetComponent``1">
+            <summary>
+            Returns a new instance of T component
+            </summary>
+            <typeparam name="T">A class type that inherits from Component</typeparam>
+            <returns>Instance of T, otherwise null if entity doesn't have the component</returns>
+        </member>
+        <member name="M:AeonScriptCore.Entity.HasComponent``1">
+            <summary>
+            Does this Entity have a particular component
+            </summary>
+            <typeparam name="T">A type that must extend Component</typeparam>
+            <returns>A boolean</returns>
+        </member>
+        <member name="M:AeonScriptCore.Entity.GetScript``1">
+            <summary>
+            Get the desired script that this entity owns. If the entity does not have the desired script, null is returned.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns>Desired script instance. If the entity does not have the desired script, <b>null</b> is returned</returns>
+        </member>
+        <member name="M:AeonScriptCore.Entity.GetChildren">
+            <summary>
+            Get the immediate children of this entity
+            </summary>
+            <returns>A List of Entity, can be null if there is no child</returns>
+        </member>
+        <member name="T:AeonScriptCore.EntityBuilder">
+            <summary>
+            Create an Entity using the builder
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.EntityBuilder.AddComponent``1(``0)">
+            <summary>
+            Add a component to the EntityBuilder.<br/><b>Note:</b> If the entity does not have a TransformBuilder, one will be created using the default constructor.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="component"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AeonScriptCore.EventHandler">
+            <summary>
+            Centralized class to create events and subscribe to them
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.EventHandler.AddHandlerToFrameEndEvent(System.Action)">
+            <summary>
+            Add an Action to run at the end of a frame
+            </summary>
+            <param name="action">Parameter of type Action, an anonymous function</param>
+        </member>
+        <member name="M:AeonScriptCore.EventHandler.AddHandlerToScriptPostUpdateEvent(System.Action)">
+            <summary>
+            Add an Action that runs after all scripts' <b>Update()</b> were called
+            <param name="action">Parameter of type Action, an anonymous function</param>
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.GameState.SetEnginePauseState(System.Boolean)">
+            <summary>
+            This will make a request to pause the engine side. The request will be fulfilled at the end of the frame.<br/>
+            Currently, it only pauses the physics simulation.
+            </summary>
+            <param name="pauseState"></param>
+        </member>
+        <member name="M:AeonScriptCore.GameState.GetEnginePauseState">
+            <summary>
+            Retrieve the engine's pause state
+            </summary>
+            <returns>A boolean</returns>
+        </member>
+        <member name="M:AeonScriptCore.GameState.QuitGame">
+            <summary>
+            Quit the game!
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.Graphics.Gamma">
+            <summary>
+            Gamma is clamped between 1.0f and 10.0f
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.Graphics.HasHDR">
+            <summary>
+            A boolean, to enable or disable HDR
+            </summary>
+        </member>
+        <member name="T:AeonScriptCore.LightType">
+            <summary>
+            LightType is for Lighting component, it decides the type of light that should render
+            </summary>
+        </member>
+        <member name="T:AeonScriptCore.FormatType">
+            <summary>
+            Format is for UI component, it decides whether UI should display an image or text
+            </summary>
+        </member>
+        <member name="T:AeonScriptCore.LayerType">
+            <summary>
+            Layer is for UI component, to group several UI entities together on one layer. Default layer will render on top the others, followed by Foreground then Background
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.Input.GetKeyPressed(System.Int32)">
+            <summary>
+            Returns true during the frame the user starts pressing down the key
+            </summary>
+            <param name="key">The desired key to get its pressed state for</param>
+            <returns>A boolean, true or false</returns>
+        </member>
+        <member name="M:AeonScriptCore.Input.GetKeyHeld(System.Int32)">
+            <summary>
+            Returns true while the user holds down the key
+            </summary>
+            <param name="key">The desired key to get its held state for</param>
+            <returns>A boolean, true or false</returns>
+        </member>
+        <member name="M:AeonScriptCore.Input.GetMouseButtonHeld(System.Int32)">
+            <summary>
+            Returns true while the user holds down the mouse button
+            </summary>
+            <param name="key">The desired mouse to get its held state for</param>
+            <returns>A boolean, true or false</returns>
+        </member>
+        <member name="M:AeonScriptCore.Input.RegisterMapping(System.String,AeonScriptCore.Input.KBMInputType,System.Int32,AeonScriptCore.Input.JoystickInput)">
+            <summary>
+            Register a key mapping, or "keybinding", to give a key a "meaning"
+            </summary>
+            <param name="mappingName">Mapping name</param>
+            <param name="kbmInputType">The type of input for non-joystick, is it keyboard or mouse?</param>
+            <param name="kbmCode">The key to assign to the mapping, can either be a Key's code or a Mouse's code</param>
+            <param name="joystickInput"></param>
+        </member>
+        <member name="M:AeonScriptCore.Input.GetMappingKeyPressed(System.String)">
+            <summary>
+            Returns true during the frame the user starts pressing down the mapping's keyboard or mouse input
+            </summary>
+            <param name="mappingName">The name of the key mapping</param>
+            <returns>A boolean, true or false</returns>
+        </member>
+        <member name="M:AeonScriptCore.Input.GetMappingKeyHeld(System.String)">
+            <summary>
+            Returns true while the user holds down the mapping's key
+            </summary>
+            <param name="mappingName">The name of the key mapping</param>
+            <returns>A boolean, true or false</returns>
+        </member>
+        <member name="M:AeonScriptCore.Input.GetMappingGamePadButtonPressed(System.String,System.Int32)">
+            <summary>
+            Returns true while the user holds down the mapping's joystick button. Otherwise false.<br/>
+            If the mapping does not have a joystick button for it's joystick input, or, if the given joystick ID is not connected, false is returned.
+            </summary>
+            <param name="mappingName">The name of the mapping</param>
+            <param name="gamePadId">An ID of the gamepad, obtainable from <see cref="M:AeonScriptCore.Input.GetConnectedGamepadIds">GetConnectedGamepadIds</see></param>
+            <returns>A boolean, true or false</returns>
+        </member>
+        <member name="M:AeonScriptCore.Input.GetMappingGamePadAxisValue(System.String,System.Int32)">
+            <summary>
+            Returns a float value while the user moves a joystick control axis, the range is in -1.0f to 1.0f. If the given joystick ID is not connected, 0.0f is returned.<br/>
+            For the thumbsticks' axes values, negative-Y is nudged forward, positive-Y is nudged backward. Positive-X is nudged rightward, negative-X is nudged leftward.
+            </summary>
+            <param name="mappingName">The name of the mapping</param>
+            <param name="gamePadId">An ID of the gamepad, obtainable from <see cref="M:AeonScriptCore.Input.GetConnectedGamepadIds">GetConnectedGamepadIds</see></param>
+            <returns>A float</returns>
+        </member>
+        <member name="M:AeonScriptCore.Input.IsGamepadConnected(System.Int32)">
+            <summary>
+            Returns true if a given gamepad ID is connected, otherwise false
+            </summary>
+            <param name="gamePadId">An ID of the gamepad, obtainable from <see cref="M:AeonScriptCore.Input.GetConnectedGamepadIds">GetConnectedGamepadIds</see></param>
+            <returns>A boolean, true or false</returns>
+        </member>
+        <member name="M:AeonScriptCore.Input.GetConnectedGamepadIds">
+            <summary>
+            Get all the connected gamepad IDs. An ID is represented as an integer
+            </summary>
+            <returns>An integer array</returns>
+        </member>
+        <member name="M:AeonScriptCore.Input.IsGamePadButtonPressed(System.Int32,AeonScriptCore.Input.JoystickInput)">
+            <summary>
+            For a valid gamepad id, the function returns true when the user presses on the joystick's button. Otherwise false.<br/>
+            If the given gamepad id is not connected, false is returned.
+            </summary>
+            <param name="gamePadId">An ID of the gamepad, obtainable from <see cref="M:AeonScriptCore.Input.GetConnectedGamepadIds">GetConnectedGamepadIds</see></param>
+            <param name="joystickInput">Only the joystick input buttons are valid, the axes are invalid and hence will return false.</param>
+            <returns>A boolean, true or false</returns>
+        </member>
+        <member name="M:AeonScriptCore.Input.GetGamePadAxisValue(System.Int32,AeonScriptCore.Input.JoystickInput)">
+            <summary>
+            For a valid gamepad id, the function returns a float value while the user moves a joystick control axis, the range is in -1.0f to 1.0f. If the given joystick ID is not connected, 0.0f is returned.<br/>
+            For the thumbsticks' axes values, negative-Y is nudged forward, positive-Y is nudged backward. Positive-X is nudged rightward, negative-X is nudged lefward.
+            </summary>
+            <param name="gamePadId">An ID of the gamepad, obtainable from <see cref="M:AeonScriptCore.Input.GetConnectedGamepadIds">GetConnectedGamepadIds</see></param>
+            <param name="joystickInput">Only the joystick input axes are valid, the buttons are invalid and hence will return 0.0f</param>
+            <returns>A float</returns>
+        </member>
+        <member name="T:AeonScriptCore.Input.KBMInputType">
+            <summary>
+            What is the input for Keyboard-Mouse setup? Is it Mouse or Keyboard? This is meant to prevent collision of values between the Keyboard codes and the Mouse button codes
+            </summary>
+        </member>
+        <member name="T:AeonScriptCore.Input.JoystickInput">
+            <summary>
+            What is the desired joystick input you wish to know? The names are styled after the Xbox One controller
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.Vector3.Cross(AeonScriptCore.Vector3,AeonScriptCore.Vector3)">
+            <summary>
+            Cross product using the right hand rule
+            </summary>
+            <param name="a">The vector on the right side, also on the index finger</param>
+            <param name="b">The vector on the left side, also on the middle finger</param>
+            <returns>The vector of the upward direction, also on the thumb finger</returns>
+        </member>
+        <member name="M:AeonScriptCore.Vector3.Normalize(AeonScriptCore.Vector3)">
+            <summary>
+            Get the normalized vector of a given vector
+            </summary>
+            <param name="vector">The vector you wish to normalize</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.Vector3.DistSq(AeonScriptCore.Vector3,AeonScriptCore.Vector3)">
+            <summary>
+            Get the squared distance between 2 points in 3D space
+            </summary>
+            <param name="a">The first point</param>
+            <param name="b">The second point</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.Vector3.Dist(AeonScriptCore.Vector3,AeonScriptCore.Vector3)">
+            <summary>
+            Get the squared distance between 2 points in 3D space
+            </summary>
+            <param name="a">The first point</param>
+            <param name="b">The second point</param>
+            <returns></returns>
+        </member>
+        <member name="T:AeonScriptCore.MathHelper">
+            <summary>
+            Math helper functions for float type
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.MathHelper.Abs(System.Single)">
+            <summary>
+            Make the given value an absolute, that is it becomes a positive number
+            </summary>
+            <param name="value">The value to make absolute</param>
+            <returns>A float</returns>
+        </member>
+        <member name="M:AeonScriptCore.MathHelper.Sqrt(System.Single)">
+            <summary>
+            Returns the square root of a float value
+            </summary>
+            <param name="value">The float value to square root</param>
+            <returns>A float value</returns>
+        </member>
+        <member name="M:AeonScriptCore.MathHelper.Sin(System.Single)">
+            <summary>
+            Returns the sine of the angle
+            </summary>
+            <param name="radAngle">Angle value in radians</param>
+            <returns>A float value</returns>
+        </member>
+        <member name="M:AeonScriptCore.MathHelper.Cos(System.Single)">
+            <summary>
+            Returns the cosine of the angle
+            </summary>
+            <param name="radAngle">Angle value in radians</param>
+            <returns>A float value</returns>
+        </member>
+        <member name="M:AeonScriptCore.MathHelper.Tan(System.Single)">
+            <summary>
+            Returns the tangent of the angle
+            </summary>
+            <param name="radAngle">Angle value in radians</param>
+            <returns>A float value</returns>
+        </member>
+        <member name="M:AeonScriptCore.MathHelper.ASin(System.Single)">
+            <summary>
+            Returns the arcsine of the angle, in radians
+            </summary>
+            <param name="value">The division value of opposite and hypotenuse lengths</param>
+            <returns>A float value</returns>
+        </member>
+        <member name="M:AeonScriptCore.MathHelper.ACos(System.Single)">
+            <summary>
+            Returns the arccosine of the angle, in radians
+            </summary>
+            <param name="value">The division value of adjacent and hypotenuse lengths</param>
+            <returns>A float value</returns>
+        </member>
+        <member name="M:AeonScriptCore.MathHelper.ATan(System.Single)">
+            <summary>
+            Returns the arctangent of the angle, in radians
+            </summary>
+            <param name="value">The division value of opposite and adjacent lengths</param>
+            <returns>A float value</returns>
+        </member>
+        <member name="M:AeonScriptCore.MathHelper.Clamp(System.Single,System.Single,System.Single)">
+            <summary>
+            Clamps the given value between a minimum and maximum value. If the value is in range, the value will be returned.
+            </summary>
+            <param name="value">The value you wish to clamp to</param>
+            <param name="min">The minimum value</param>
+            <param name="max">The maximum value</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeonScriptCore.NativeLog.Log(System.String)">
+            <summary>
+            Logs a message to the console
+            </summary>
+            <param name="message">The message you wish to log</param>
+        </member>
+        <member name="M:AeonScriptCore.NativeLog.Log(System.String,System.Object[])">
+            <summary>
+            A variant of Log that takes in an additional argument to format the string
+            </summary>
+            <param name="message">The message you wish to log</param>
+            <param name="args">Format arguments to apply to the message</param>
+        </member>
+        <member name="M:AeonScriptCore.NativeLog.LogWarn(System.String)">
+            <summary>
+            A varaint of NativeLog.Log that logs a warning message to the console
+            </summary>
+            <param name="message">The message you wish to log</param>
+        </member>
+        <member name="M:AeonScriptCore.NativeLog.LogWarn(System.String,System.Object[])">
+            <summary>
+            A variant of LogWarn that takes in an additional argument to format the string
+            </summary>
+            <param name="message">The message you wish to log</param>
+            <param name="args">Format arguments to apply to the message</param>
+        </member>
+        <member name="M:AeonScriptCore.NativeLog.LogError(System.String)">
+            <summary>
+            A varaint of NativeLog.Log that logs an error message to the console
+            </summary>
+            <param name="message">The message you wish to log</param>
+        </member>
+        <member name="M:AeonScriptCore.NativeLog.LogError(System.String,System.Object[])">
+            <summary>
+            A variant of LogError that takes in an additional argument to format the string
+            </summary>
+            <param name="message">The message you wish to log</param>
+            <param name="args">Format arguments to apply to the message</param>
+        </member>
+        <member name="P:AeonScriptCore.Physics.CubeColliderShape.HalfSize">
+            <summary>
+            The half-size dimensions of the cube shape
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.Physics.SphereColliderShape.Radius">
+            <summary>
+            The radius of the sphere shape
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.Physics.CapsuleColliderShape.Radius">
+            <summary>
+            The radius of the half-sphere end of the capsule shape
+            </summary>
+        </member>
+        <member name="T:AeonScriptCore.SceneManager">
+            <summary>
+            Allows you to manage the scene loading
+            </summary>
+        </member>
+        <member name="M:AeonScriptCore.SceneManager.LoadScene(System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Load a scene. The scene loads only at the beginning of the next frame. By proxy, loading a scene will also make the existing scene "inactive".<br/>
+            <b>NOTE:</b> You are making a REQUEST, so if you make another LoadScene call within the same frame, that will OVERWRITE your previous request.
+            </summary>
+            <param name="sceneFilepath">The filepath to the scene file, it must be relative to the "./resources/scene" folder. So if the scene file is inside the aforementioned folder just provide the scene filename, no need to prepend with "./"</param>
+            <param name="loadInThread">Pass true only if you are loading a huge scene like a game, that can take awhile to load or you want to display a loading screen.</param>
+            <param name="shouldCache">Caching will create a unique identifier based on the scene filepath that begins after "./resources/scene/", so if you gave a filepath like "./resources/scene/hello.scene", the cached scene's identifier is "hello.scene"</param>
+        </member>
+        <member name="M:AeonScriptCore.SceneManager.RemoveSceneFromCache(System.String)">
+            <summary>
+            Remove a scene from cache. This will not unload or disrupt the current active scene IF it was the targeted scene to "remove"
+            </summary>
+            <param name="sceneFilepath"></param>
+        </member>
+        <member name="P:AeonScriptCore.Time.DeltaTime">
+            <summary>
+            Time taken in one frame
+            </summary>
+        </member>
+        <member name="P:AeonScriptCore.Time.ElapsedTime">
+            <summary>
+            Time since the application started, basically is the application's run time
+            </summary>
+        </member>
+    </members>
+</doc>

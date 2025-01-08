@@ -1,0 +1,256 @@
+{
+    "scene_info": {
+        "type": 0
+    },
+    "Entities": [
+        {
+            "id": 16777224,
+            "uuid": "9f9dcfca4edd670f",
+            "mName": "Entity 16777220",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\AeonCore\\Editor/resources/textures/container.dds"
+                        },
+                        {
+                            "Format": "Word"
+                        },
+                        {
+                            "Font Text": "a"
+                        },
+                        {
+                            "Font Type": "C:\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16777226,
+            "uuid": "aa5a76663f41483e",
+            "mName": "Entity 16777220(1)(1)(1)",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": -64.17900085449219,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\AeonCore\\Editor/resources/textures/container.dds"
+                        },
+                        {
+                            "Format": "Word"
+                        },
+                        {
+                            "Font Text": "b"
+                        },
+                        {
+                            "Font Type": "C:\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16777227,
+            "uuid": "7cb75b110d273eae",
+            "mName": "Entity 16777227",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": -46.11056137084961,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\AeonCore\\Editor/resources/textures/container.dds"
+                        },
+                        {
+                            "Format": "Word"
+                        },
+                        {
+                            "Font Text": "c"
+                        },
+                        {
+                            "Font Type": "C:\\AeonCore\\Editor/resources/fonts/OpenSans-Bold.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Settings": [
+        {
+            "ambient light": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            }
+        }
+    ]
+}

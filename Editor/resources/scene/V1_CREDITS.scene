@@ -1,0 +1,353 @@
+{
+    "scene_info": {
+        "type": 0
+    },
+    "Entities": [
+        {
+            "id": 1207959580,
+            "uuid": "9c2232e1b2505f19",
+            "mName": "Credits",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -20.0,
+                                "y": 560.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1100.0,
+                                "y": 1100.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 3
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Felicia\\Documents\\GitHub\\AeonCore\\Editor/resources/textures/TitleOnly2.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Felicia\\Documents\\GitHub\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1207959581,
+            "uuid": "154d6c79ed7ff43c",
+            "mName": "CreditsBG",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -190.0,
+                                "y": 4730.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 6700.0,
+                                "y": 5390.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 6
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Felicia\\Documents\\GitHub\\AeonCore\\Editor/resources/textures/16384_CreditBG.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Felicia\\Documents\\GitHub\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1207959582,
+            "uuid": "73738f1a8d4aba60",
+            "mName": "CreditsText",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -30.0,
+                                "y": 4000.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 3200.0,
+                                "y": 3200.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 1207959582
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.RollCredits": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Felicia\\Documents\\GitHub\\AeonCore\\Editor/resources/textures/12000CreditText.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Felicia\\Documents\\GitHub\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1207959583,
+            "uuid": "764aaff5b0b8fc05",
+            "mName": "Light",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Lighting": [
+                        {
+                            "Position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Color": {
+                                "x": 0.4901960492134094,
+                                "y": 0.4901960492134094,
+                                "z": 0.4901960492134094
+                            }
+                        },
+                        {
+                            "Light Type": "DIRECTIONAL"
+                        },
+                        {
+                            "Direction": {
+                                "x": 0.0,
+                                "y": -1.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Intensity": 1
+                        },
+                        {
+                            "Cutoff": 12
+                        },
+                        {
+                            "Outer Cutoff": 17
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Settings": [
+        {
+            "ambient light": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            }
+        }
+    ]
+}

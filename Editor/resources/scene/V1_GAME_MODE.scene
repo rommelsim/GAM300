@@ -1,0 +1,1332 @@
+{
+    "scene_info": {
+        "type": 0
+    },
+    "Entities": [
+        {
+            "id": 318767865,
+            "uuid": "5197dc2650f316f5",
+            "mName": "Level1",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -350.0,
+                                "y": 30.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 340.0,
+                                "y": 340.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Audio": [
+                        {
+                            "name": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/audios/AllOtherButtonPress.wav"
+                        },
+                        {
+                            "volume": 0.5
+                        },
+                        {
+                            "loop": false
+                        },
+                        {
+                            "pitch": 1.0
+                        },
+                        {
+                            "pan": 0.0
+                        },
+                        {
+                            "mute": false
+                        },
+                        {
+                            "onAwake": false
+                        },
+                        {
+                            "type": "SFX"
+                        },
+                        {
+                            "3D mode": false
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 318767865
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.GameMode": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 3
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/textures/TheKnockOff_Selected.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767866,
+            "uuid": "768da6e591aea4a0",
+            "mName": "Level2",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 350.0,
+                                "y": 35.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 340.0,
+                                "y": 345.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 3
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/textures/PackedTracksLocked.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767867,
+            "uuid": "70f2d007317e29a1",
+            "mName": "StartController",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 660.0,
+                                "y": 470.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 360.0,
+                                "y": 320.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 4
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/textures/Start (Controller).dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767868,
+            "uuid": "546ad631e2479238",
+            "mName": "Camera",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Camera": [
+                        {
+                            "movement speed": 20.0
+                        },
+                        {
+                            "zoom": 20.0
+                        },
+                        {
+                            "target": {
+                                "x": -4.371138828673793e-8,
+                                "y": 0.0,
+                                "z": -1.0
+                            }
+                        },
+                        {
+                            "yaw": -90.0
+                        },
+                        {
+                            "pitch": 0.0
+                        },
+                        {
+                            "role": "CAMERA"
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 318767868
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.CameraLookAtSpot": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767869,
+            "uuid": "bf3e0bf0abb6acb7",
+            "mName": "Light",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 600.0,
+                                "y": 350.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Lighting": [
+                        {
+                            "Position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Color": {
+                                "x": 0.44117647409439087,
+                                "y": 0.44117647409439087,
+                                "z": 0.44117647409439087
+                            }
+                        },
+                        {
+                            "Light Type": "DIRECTIONAL"
+                        },
+                        {
+                            "Direction": {
+                                "x": 0.0,
+                                "y": -1.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Intensity": 1
+                        },
+                        {
+                            "Cutoff": 12
+                        },
+                        {
+                            "Outer Cutoff": 17
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767870,
+            "uuid": "8740495033b7f74b",
+            "mName": "RedWinner",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -500.0,
+                                "y": 350.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 130.0,
+                                "y": 130.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 2
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/textures/RedWinner.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 0.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767871,
+            "uuid": "2b8b0f0c61eda696",
+            "mName": "BlueWinner",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -320.0,
+                                "y": 350.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 130.0,
+                                "y": 130.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/textures/BlueWinner.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 0.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767872,
+            "uuid": "851b15f3290399c5",
+            "mName": "Title",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -580.0,
+                                "y": -420.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 300.0,
+                                "y": 150.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/textures/gamemodeTitle.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767873,
+            "uuid": "f9fbee155f660385",
+            "mName": "Audio",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Audio": [
+                        {
+                            "name": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/audios/MainMenuBGM.wav"
+                        },
+                        {
+                            "volume": 0.699999988079071
+                        },
+                        {
+                            "loop": false
+                        },
+                        {
+                            "pitch": 1.0
+                        },
+                        {
+                            "pan": 0.0
+                        },
+                        {
+                            "mute": false
+                        },
+                        {
+                            "onAwake": true
+                        },
+                        {
+                            "type": "BGM"
+                        },
+                        {
+                            "3D mode": false
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 318767873
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.MainMenuBGM": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767874,
+            "uuid": "2fbfd92aaa9724f2",
+            "mName": "Background",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 960.0,
+                                "y": 540.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Background"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/textures/SwirlyWorly.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767875,
+            "uuid": "d3bf28d661cfe78d",
+            "mName": "Dots",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 600.0,
+                                "y": 600.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 318767875
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.MainMenuBGTurnTurn": {
+                                    "speed": {
+                                        "type": "Float",
+                                        "value": 20.0
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 10
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/textures/dots.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 0.6000000238418579
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767876,
+            "uuid": "87b5b5710bc356fa",
+            "mName": "Boxes",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1000.0,
+                                "y": 1000.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 318767876
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.MainMenuBGTurnTurn": {
+                                    "speed": {
+                                        "type": "Float",
+                                        "value": -22.0
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Foreground"
+                        },
+                        {
+                            "Order": 11
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/textures/noncoloured cubes.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 0.6000000238418579
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767877,
+            "uuid": "f6b27c4012690e3a",
+            "mName": "BoxesSmall",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 450.0,
+                                "y": 450.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 318767877
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.MainMenuBGTurnTurn": {
+                                    "speed": {
+                                        "type": "Float",
+                                        "value": 15.0
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Foreground"
+                        },
+                        {
+                            "Order": 13
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/textures/noncoloured cubes.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 0.6000000238418579
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767878,
+            "uuid": "dba8e18d33f72013",
+            "mName": "BlueWinner2",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 382.0,
+                                "y": 350.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 130.0,
+                                "y": 130.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/textures/BlueWinner.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 0.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 318767879,
+            "uuid": "e0892ab7da9e2c0c",
+            "mName": "RedWinner2",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 202.0,
+                                "y": 350.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 130.0,
+                                "y": 130.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/textures/RedWinner.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Admin\\Desktop\\AeonCore_GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 0.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Settings": [
+        {
+            "ambient light": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            }
+        }
+    ]
+}

@@ -1,0 +1,230 @@
+{
+    "scene_info": {
+        "type": 1
+    },
+    "Entities": [
+        {
+            "id": 16777217,
+            "uuid": "7c5396f392c71342",
+            "mName": "LoadBG",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1000.0,
+                                "y": 600.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "world matrix": [
+                                {
+                                    "x": 0.0,
+                                    "y": -1.9550534981319082e25,
+                                    "z": 4.590513639281668e-41,
+                                    "w": 1.6112138749926896e-14
+                                },
+                                {
+                                    "x": 8.295686908802917e-43,
+                                    "y": -1.8827329226987795e25,
+                                    "z": 4.590513639281668e-41,
+                                    "w": 427164115681673200.0
+                                },
+                                {
+                                    "x": 8.295686908802917e-43,
+                                    "y": 0.0,
+                                    "z": 0.0,
+                                    "w": 3.6863888636069746e-39
+                                },
+                                {
+                                    "x": 0.0,
+                                    "y": 427164115681673200.0,
+                                    "z": 8.295686908802917e-43,
+                                    "w": 3267757080576.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Lam En Qing\\Desktop\\University Work\\Year 3\\Sem 1\\GAM module\\AeonCore\\Editor/resources/textures/Loading.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Lam En Qing\\Desktop\\University Work\\Year 3\\Sem 1\\GAM module\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16777218,
+            "uuid": "6452cf25a97887f9",
+            "mName": "Entity 289",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -40.0,
+                                "y": -50.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.5,
+                                "y": 1.5,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "world matrix": [
+                                {
+                                    "x": 0.0,
+                                    "y": -1.9549937767979696e25,
+                                    "z": 4.590513639281668e-41,
+                                    "w": 1.6112138749926896e-14
+                                },
+                                {
+                                    "x": 8.295686908802917e-43,
+                                    "y": -1.8827329226987795e25,
+                                    "z": 4.590513639281668e-41,
+                                    "w": 427164115681673200.0
+                                },
+                                {
+                                    "x": 8.295686908802917e-43,
+                                    "y": 0.0,
+                                    "z": 0.0,
+                                    "w": 3.6863888636069746e-39
+                                },
+                                {
+                                    "x": 0.0,
+                                    "y": 427164115681673200.0,
+                                    "z": 8.295686908802917e-43,
+                                    "w": 3267757080576.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 16777218
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.LoadScreenProgress": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\Lam En Qing\\Desktop\\University Work\\Year 3\\Sem 1\\GAM module\\AeonCore\\Editor/resources/textures/container.dds"
+                        },
+                        {
+                            "Format": "Word"
+                        },
+                        {
+                            "Font Text": "percent"
+                        },
+                        {
+                            "Font Type": "C:\\Users\\Lam En Qing\\Desktop\\University Work\\Year 3\\Sem 1\\GAM module\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Settings": []
+}

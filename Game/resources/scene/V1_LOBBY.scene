@@ -1,0 +1,1516 @@
+{
+    "scene_info": {
+        "type": 0
+    },
+    "Entities": [
+        {
+            "id": 369099130,
+            "uuid": "c5f5edefb581b357",
+            "mName": "Cat1",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 3.0,
+                                "y": -6.010000228881836,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.3420201241970062,
+                                "z": 0.0,
+                                "w": 0.9396926164627075
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 10.0,
+                                "y": 10.0,
+                                "z": 10.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": 0.6981316804885864,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 369099130
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.InputDetectionScript": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/redcat.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/Cat2.bin"
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "mass": 1.0
+                        },
+                        {
+                            "linear drag": 0.5
+                        },
+                        {
+                            "angular drag": 0.5
+                        },
+                        {
+                            "use gravity": false
+                        },
+                        {
+                            "auto center of mass": true
+                        },
+                        {
+                            "center of mass": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "auto tensor": true
+                        },
+                        {
+                            "inertia tensor": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                            }
+                        },
+                        {
+                            "inertia tensor rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "kinematic": false
+                        },
+                        {
+                            "type": "DYNAMIC"
+                        }
+                    ]
+                },
+                {
+                    "Collider": [
+                        {
+                            "show bounds": true
+                        },
+                        {
+                            "trigger": false
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "collider type": "CUBE"
+                        },
+                        {
+                            "material": {
+                                "static friction": 0.6000000238418579,
+                                "dynamic friction": 0.6000000238418579,
+                                "restitution": 0.0
+                            }
+                        },
+                        {
+                            "geometry": {
+                                "half extents": {
+                                    "x": 4.0,
+                                    "y": 3.3299999237060547,
+                                    "z": 4.0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 369099131,
+            "uuid": "f0fae91bcd044ceb",
+            "mName": "Platform1",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 3.0,
+                                "y": -17.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 13.0,
+                                "y": 13.0,
+                                "z": 13.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 369099131
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.InputDetectionScript": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/BottomRed.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/PedalstalBottom.bin"
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "mass": 1.0
+                        },
+                        {
+                            "linear drag": 0.5
+                        },
+                        {
+                            "angular drag": 0.5
+                        },
+                        {
+                            "use gravity": false
+                        },
+                        {
+                            "auto center of mass": true
+                        },
+                        {
+                            "center of mass": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "auto tensor": true
+                        },
+                        {
+                            "inertia tensor": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                            }
+                        },
+                        {
+                            "inertia tensor rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "kinematic": false
+                        },
+                        {
+                            "type": "STATIC"
+                        }
+                    ]
+                },
+                {
+                    "Collider": [
+                        {
+                            "show bounds": true
+                        },
+                        {
+                            "trigger": false
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": -0.7900000214576721,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "collider type": "CUBE"
+                        },
+                        {
+                            "material": {
+                                "static friction": 0.6000000238418579,
+                                "dynamic friction": 0.6000000238418579,
+                                "restitution": 0.0
+                            }
+                        },
+                        {
+                            "geometry": {
+                                "half extents": {
+                                    "x": 10.0,
+                                    "y": 0.5,
+                                    "z": 10.0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 369099132,
+            "uuid": "038e83b8195b1822",
+            "mName": "LobbyTitle",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -361.3370056152344,
+                                "y": 156.67999267578125,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.4700000286102295,
+                                "y": 1.3700000047683716,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Background"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/RLOBBY.dds"
+                        },
+                        {
+                            "Format": "Word"
+                        },
+                        {
+                            "Font Text": "LOBBY"
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 0.7490196228027344,
+                                "y": 0.7450980544090271,
+                                "z": 0.7450980544090271
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 369099133,
+            "uuid": "8377e61d4e0159ed",
+            "mName": "Platform2",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 27.0,
+                                "y": -17.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 13.0,
+                                "y": 13.0,
+                                "z": 13.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 369099133
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.InputDetectionScript": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/BottomBlue.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/PedalstalBottom.bin"
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "mass": 1.0
+                        },
+                        {
+                            "linear drag": 0.5
+                        },
+                        {
+                            "angular drag": 0.5
+                        },
+                        {
+                            "use gravity": false
+                        },
+                        {
+                            "auto center of mass": true
+                        },
+                        {
+                            "center of mass": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "auto tensor": true
+                        },
+                        {
+                            "inertia tensor": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                            }
+                        },
+                        {
+                            "inertia tensor rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "kinematic": false
+                        },
+                        {
+                            "type": "STATIC"
+                        }
+                    ]
+                },
+                {
+                    "Collider": [
+                        {
+                            "show bounds": true
+                        },
+                        {
+                            "trigger": false
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": -0.7900000214576721,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "collider type": "CUBE"
+                        },
+                        {
+                            "material": {
+                                "static friction": 0.6000000238418579,
+                                "dynamic friction": 0.6000000238418579,
+                                "restitution": 0.0
+                            }
+                        },
+                        {
+                            "geometry": {
+                                "half extents": {
+                                    "x": 10.0,
+                                    "y": 0.5,
+                                    "z": 10.0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 369099134,
+            "uuid": "24400d2a114bdc87",
+            "mName": "Cat2",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 27.0,
+                                "y": -5.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": -0.3420201241970062,
+                                "z": 0.0,
+                                "w": 0.9396926164627075
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 10.0,
+                                "y": 10.0,
+                                "z": 10.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.6981316804885864,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 369099134
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.InputDetectionScript": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/bluecat.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/Cat2.bin"
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "mass": 1.0
+                        },
+                        {
+                            "linear drag": 0.5
+                        },
+                        {
+                            "angular drag": 0.5
+                        },
+                        {
+                            "use gravity": false
+                        },
+                        {
+                            "auto center of mass": true
+                        },
+                        {
+                            "center of mass": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "auto tensor": true
+                        },
+                        {
+                            "inertia tensor": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                            }
+                        },
+                        {
+                            "inertia tensor rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "kinematic": false
+                        },
+                        {
+                            "type": "DYNAMIC"
+                        }
+                    ]
+                },
+                {
+                    "Collider": [
+                        {
+                            "show bounds": true
+                        },
+                        {
+                            "trigger": false
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "collider type": "CUBE"
+                        },
+                        {
+                            "material": {
+                                "static friction": 0.6000000238418579,
+                                "dynamic friction": 0.6000000238418579,
+                                "restitution": 0.0
+                            }
+                        },
+                        {
+                            "geometry": {
+                                "half extents": {
+                                    "x": 4.0,
+                                    "y": 4.0,
+                                    "z": 4.0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 369099135,
+            "uuid": "894e82c38fbe2ef0",
+            "mName": "Player1JoinButton",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -660.0,
+                                "y": 480.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 320.0,
+                                "y": 320.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Audio": [
+                        {
+                            "name": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/audios/ReadyButton.wav"
+                        },
+                        {
+                            "volume": 0.5
+                        },
+                        {
+                            "loop": false
+                        },
+                        {
+                            "pitch": 1.0
+                        },
+                        {
+                            "pan": 0.0
+                        },
+                        {
+                            "mute": false
+                        },
+                        {
+                            "onAwake": false
+                        },
+                        {
+                            "type": "SFX"
+                        },
+                        {
+                            "3D mode": false
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 369099135
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.InputDetectionScript": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Join_LeftSide_Controller.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 369099136,
+            "uuid": "c64ab45781e6fc33",
+            "mName": "Player2Join_Button",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 680.0,
+                                "y": 480.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 320.0,
+                                "y": 320.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Audio": [
+                        {
+                            "name": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/audios/ReadyButton.wav"
+                        },
+                        {
+                            "volume": 0.5
+                        },
+                        {
+                            "loop": false
+                        },
+                        {
+                            "pitch": 1.0
+                        },
+                        {
+                            "pan": 0.0
+                        },
+                        {
+                            "mute": false
+                        },
+                        {
+                            "onAwake": false
+                        },
+                        {
+                            "type": "SFX"
+                        },
+                        {
+                            "3D mode": false
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 369099136
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.InputDetectionScript": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Join RightSide (Controller).dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 369099137,
+            "uuid": "23151098b77ff09d",
+            "mName": "camera_placeholder",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Camera": [
+                        {
+                            "movement speed": 20.0
+                        },
+                        {
+                            "zoom": 20.0
+                        },
+                        {
+                            "target": {
+                                "x": 10.0,
+                                "y": 53.0,
+                                "z": 169.0
+                            }
+                        },
+                        {
+                            "yaw": -90.0
+                        },
+                        {
+                            "pitch": 0.0
+                        },
+                        {
+                            "role": "CAMERA"
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 10.0,
+                                "y": 53.0,
+                                "z": 170.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 369099137
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.CameraLookAtSpot": {
+                                    "CameraPosition": {
+                                        "type": "Vector3",
+                                        "value": {
+                                            "x": 15.0,
+                                            "y": 48.0,
+                                            "z": 45.0
+                                        }
+                                    },
+                                    "LookAtPosition": {
+                                        "type": "Vector3",
+                                        "value": {
+                                            "x": 15.0,
+                                            "y": 48.0,
+                                            "z": 10.0
+                                        }
+                                    }
+                                },
+                                "AeonScripts.ContinueMainMenuBGM": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 369099138,
+            "uuid": "35a465289064fbe7",
+            "mName": "Background",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 16.0,
+                                "y": 52.0,
+                                "z": -30.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 0.05999999865889549,
+                                "y": 0.05999999865889549,
+                                "z": 0.05999999865889549
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Lobbybg.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/Plane.bin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 369099140,
+            "uuid": "d4e7a584f65ea2ad",
+            "mName": "Platform1_Top",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 3.0,
+                                "y": -17.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 12.0,
+                                "y": 13.0,
+                                "z": 12.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/TopRed.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/PedalstalTop.bin"
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "mass": 1.0
+                        },
+                        {
+                            "linear drag": 0.5
+                        },
+                        {
+                            "angular drag": 0.5
+                        },
+                        {
+                            "use gravity": false
+                        },
+                        {
+                            "auto center of mass": true
+                        },
+                        {
+                            "center of mass": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "auto tensor": true
+                        },
+                        {
+                            "inertia tensor": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                            }
+                        },
+                        {
+                            "inertia tensor rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "kinematic": false
+                        },
+                        {
+                            "type": "STATIC"
+                        }
+                    ]
+                },
+                {
+                    "Collider": [
+                        {
+                            "show bounds": true
+                        },
+                        {
+                            "trigger": false
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 3.3299999237060547,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "collider type": "CUBE"
+                        },
+                        {
+                            "material": {
+                                "static friction": 0.6000000238418579,
+                                "dynamic friction": 0.6000000238418579,
+                                "restitution": 0.0
+                            }
+                        },
+                        {
+                            "geometry": {
+                                "half extents": {
+                                    "x": 10.0,
+                                    "y": 3.940000057220459,
+                                    "z": 10.0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 369099141,
+            "uuid": "6b7fb1019574b240",
+            "mName": "Platform2_Top",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 27.0,
+                                "y": -17.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 12.0,
+                                "y": 13.0,
+                                "z": 12.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/TopBlue.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/PedalstalTop.bin"
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "mass": 1.0
+                        },
+                        {
+                            "linear drag": 0.5
+                        },
+                        {
+                            "angular drag": 0.5
+                        },
+                        {
+                            "use gravity": false
+                        },
+                        {
+                            "auto center of mass": true
+                        },
+                        {
+                            "center of mass": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "auto tensor": true
+                        },
+                        {
+                            "inertia tensor": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                            }
+                        },
+                        {
+                            "inertia tensor rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "kinematic": false
+                        },
+                        {
+                            "type": "STATIC"
+                        }
+                    ]
+                },
+                {
+                    "Collider": [
+                        {
+                            "show bounds": true
+                        },
+                        {
+                            "trigger": false
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 3.3299999237060547,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "collider type": "CUBE"
+                        },
+                        {
+                            "material": {
+                                "static friction": 0.6000000238418579,
+                                "dynamic friction": 0.6000000238418579,
+                                "restitution": 0.0
+                            }
+                        },
+                        {
+                            "geometry": {
+                                "half extents": {
+                                    "x": 10.0,
+                                    "y": 3.940000057220459,
+                                    "z": 10.0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 369099142,
+            "uuid": "ac0682f386db24fc",
+            "mName": "Light",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 13.170999526977539,
+                                "y": 60.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Lighting": [
+                        {
+                            "Position": {
+                                "x": 13.170999526977539,
+                                "y": 60.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Color": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "Light Type": "DIRECTIONAL"
+                        },
+                        {
+                            "Direction": {
+                                "x": -0.6000000238418579,
+                                "y": -1.2999999523162842,
+                                "z": -0.800000011920929
+                            }
+                        },
+                        {
+                            "Intensity": 1
+                        },
+                        {
+                            "Cutoff": 12
+                        },
+                        {
+                            "Outer Cutoff": 17
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Settings": [
+        {
+            "ambient light": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            }
+        }
+    ]
+}

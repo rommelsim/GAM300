@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)intermediates\$(Platform)\$(Configuration)</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)AeonCore\include;$(SolutionDir)AeonCore\dependencies\imgui;$(SolutionDir)AeonCore\dependencies\ImGuizmo;$(SolutionDir)AeonCore\dependencies\glad\include;$(SolutionDir)AeonCore\dependencies\glfw\include;$(SolutionDir)AeonCore\dependencies\glm;$(SolutionDir)AeonCore\dependencies\fmod_core\inc;$(SolutionDir)AeonCore\dependencies\mono\include;$(SolutionDir)AeonCore\dependencies\stb;$(SolutionDir)AeonCore\dependencies\assimp\include;$(SolutionDir)AeonCore\dependencies\spdlog\include\;$(SolutionDir)AeonCore\dependencies\rttr\src;$(SolutionDir)AeonCore\dependencies\rapidjson;$(SolutionDir)AeonCore\dependencies\physx\include;$(SolutionDir)AeonCore\dependencies\freetype\include;$(SolutionDir)AeonCore\dependencies\tracy;$(SolutionDir)AeonCore\dependencies\filewatch;$(SolutionDir)Compiler\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>AEON_PLATFORM_WINDOWS;TRACY_ENABLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4201; 4091; 4099; 4251;  4505; 4005; 4996</DisableSpecificWarnings>
+      <WarningLevel>Level4</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)AeonCore\dependencies\glfw\lib-vc2022;$(SolutionDir)AeonCore\dependencies\assimp\lib;$(SolutionDir)AeonCore\dependencies\mono\lib;$(SolutionDir)AeonCore\dependencies\rttr\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3dll.lib;assimp-vc142-mtd.lib;mono-2.0-sgen_d.lib;rttr_core_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

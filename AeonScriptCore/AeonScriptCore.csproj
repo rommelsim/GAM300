@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{635D07F9-8523-434E-AF3A-89A72A057974}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AeonScriptCore</RootNamespace>
+    <AssemblyName>AeonScriptCore</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\AeonScriptCore.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AeonBehaviour.cs" />
+    <Compile Include="Attributes\HideFromEditor.cs" />
+    <Compile Include="Attributes\ShowInEditor.cs" />
+    <Compile Include="Audio.cs" />
+    <Compile Include="EntityComps\ComponentBuilder.cs" />
+    <Compile Include="EntityComps\Components.cs" />
+    <Compile Include="EntityComps\Entity.cs" />
+    <Compile Include="EventHandler.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="Graphics.cs" />
+    <Compile Include="Input.cs" />
+    <Compile Include="Internals\EngineCallable.cs" />
+    <Compile Include="Math.cs" />
+    <Compile Include="Internals\InternalCalls.cs" />
+    <Compile Include="NativeLog.cs" />
+    <Compile Include="Physics.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SceneManager.cs" />
+    <Compile Include="Time.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /y /i "$(TargetDir)$(TargetFileName)" "$(SolutionDir)Editor\resources\scripts\"
+xcopy /y /i "$(TargetDir)$(TargetName).xml" "$(SolutionDir)Editor\resources\scripts\"
+xcopy /y /i "$(TargetDir)$(TargetName).pdb" "$(SolutionDir)Editor\resources\scripts\"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

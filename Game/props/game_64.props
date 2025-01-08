@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)intermediates\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)AeonCore\include;$(SolutionDir)AeonCore\dependencies\glad\include;$(SolutionDir)AeonCore\dependencies\glfw\include;$(SolutionDir)AeonCore\dependencies\glm;$(SolutionDir)AeonCore\dependencies\rapidjson;$(SolutionDir)AeonCore\dependencies\rttr\src;$(SolutionDir)AeonCore\dependencies\spdlog\include;$(SolutionDir)AeonCore\dependencies\assimp\include;$(SolutionDir)AeonCore\dependencies\freetype\include;$(SolutionDir)Compiler\;$(SolutionDir)AeonCore\dependencies\fmod_core\inc;$(SolutionDir)AeonCore\dependencies\physx\include;$(SolutionDir)AeonCore\dependencies\tracy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GLFW_INCLUDE_NONE;AEON_PLATFORM_WINDOWS;_SILENCE_CXX20_CISO646_REMOVED_WARNING;TRACY_ENABLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)AeonCore\dependencies\glfw\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y "$(SolutionDir)Editor\build_excludeList.txt" "$(ProjectDir)"
+rmdir /s "$(ProjectDir)resources"
+xcopy /y /i /e "$(SolutionDir)Editor/resources" "$(ProjectDir)resources" /EXCLUDE:build_excludeList.txt</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

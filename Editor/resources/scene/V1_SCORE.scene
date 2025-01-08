@@ -1,0 +1,1844 @@
+{
+    "scene_info": {
+        "type": 0
+    },
+    "Entities": [
+        {
+            "id": 486539401,
+            "uuid": "a76210facf15e099",
+            "mName": "Cat1",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -25.0,
+                                "y": 20.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.14625568687915802,
+                                "z": 0.0,
+                                "w": 0.9892468452453613
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 15.0,
+                                "y": 15.0,
+                                "z": 15.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": 0.2935643792152405,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 486539401
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.ScoreMenu": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/redcat.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/objects/Cat2.bin"
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "mass": 1.0
+                        },
+                        {
+                            "linear drag": 0.5
+                        },
+                        {
+                            "angular drag": 0.5
+                        },
+                        {
+                            "use gravity": true
+                        },
+                        {
+                            "auto center of mass": true
+                        },
+                        {
+                            "center of mass": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "auto tensor": true
+                        },
+                        {
+                            "inertia tensor": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                            }
+                        },
+                        {
+                            "inertia tensor rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "kinematic": false
+                        },
+                        {
+                            "type": "DYNAMIC"
+                        }
+                    ]
+                },
+                {
+                    "Collider": [
+                        {
+                            "show bounds": true
+                        },
+                        {
+                            "trigger": false
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "collider type": "CUBE"
+                        },
+                        {
+                            "material": {
+                                "static friction": 0.6000000238418579,
+                                "dynamic friction": 0.6000000238418579,
+                                "restitution": 0.0
+                            }
+                        },
+                        {
+                            "geometry": {
+                                "half extents": {
+                                    "x": 6.0,
+                                    "y": 6.0,
+                                    "z": 6.0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539402,
+            "uuid": "3c6406ab3285d57c",
+            "mName": "Platform1",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -25.0,
+                                "y": 6.449999809265137,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 20.0,
+                                "y": 25.0,
+                                "z": 20.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 486539402
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.ScoreMenu": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/BottomRed.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/objects/PedalstalBottom.bin"
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "mass": 1.0
+                        },
+                        {
+                            "linear drag": 0.5
+                        },
+                        {
+                            "angular drag": 0.5
+                        },
+                        {
+                            "use gravity": false
+                        },
+                        {
+                            "auto center of mass": true
+                        },
+                        {
+                            "center of mass": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "auto tensor": true
+                        },
+                        {
+                            "inertia tensor": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                            }
+                        },
+                        {
+                            "inertia tensor rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "kinematic": false
+                        },
+                        {
+                            "type": "STATIC"
+                        }
+                    ]
+                },
+                {
+                    "Collider": [
+                        {
+                            "show bounds": true
+                        },
+                        {
+                            "trigger": false
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "collider type": "CUBE"
+                        },
+                        {
+                            "material": {
+                                "static friction": 0.6000000238418579,
+                                "dynamic friction": 0.6000000238418579,
+                                "restitution": 0.0
+                            }
+                        },
+                        {
+                            "geometry": {
+                                "half extents": {
+                                    "x": 13.359999656677246,
+                                    "y": 0.6100000143051147,
+                                    "z": 13.0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539403,
+            "uuid": "03db4cdfd775afef",
+            "mName": "ScoreTitle",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -366.0,
+                                "y": 167.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.4600000381469727,
+                                "y": 1.3700000047683716,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Background"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/RLOBBY.dds"
+                        },
+                        {
+                            "Format": "Word"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 0.7450980544090271,
+                                "y": 0.7450980544090271,
+                                "z": 0.7490196228027344
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539404,
+            "uuid": "188c190efa32f397",
+            "mName": "Platform2",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 19.0,
+                                "y": 6.449999809265137,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 20.0,
+                                "y": 25.0,
+                                "z": 20.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 486539404
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.ScoreMenu": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/BottomBlue.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/objects/PedalstalBottom.bin"
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "mass": 1.0
+                        },
+                        {
+                            "linear drag": 0.5
+                        },
+                        {
+                            "angular drag": 0.5
+                        },
+                        {
+                            "use gravity": false
+                        },
+                        {
+                            "auto center of mass": true
+                        },
+                        {
+                            "center of mass": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "auto tensor": true
+                        },
+                        {
+                            "inertia tensor": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                            }
+                        },
+                        {
+                            "inertia tensor rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "kinematic": false
+                        },
+                        {
+                            "type": "STATIC"
+                        }
+                    ]
+                },
+                {
+                    "Collider": [
+                        {
+                            "show bounds": true
+                        },
+                        {
+                            "trigger": false
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "collider type": "CUBE"
+                        },
+                        {
+                            "material": {
+                                "static friction": 0.6000000238418579,
+                                "dynamic friction": 0.6000000238418579,
+                                "restitution": 0.0
+                            }
+                        },
+                        {
+                            "geometry": {
+                                "half extents": {
+                                    "x": 14.329999923706055,
+                                    "y": 0.4399999976158142,
+                                    "z": 13.0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539405,
+            "uuid": "134abdbaf05f3e10",
+            "mName": "Cat2",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 19.0,
+                                "y": 20.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 15.0,
+                                "y": 15.0,
+                                "z": 15.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 486539405
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.ScoreMenu": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/bluecat.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/objects/Cat2.bin"
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "mass": 1.0
+                        },
+                        {
+                            "linear drag": 0.5
+                        },
+                        {
+                            "angular drag": 0.5
+                        },
+                        {
+                            "use gravity": true
+                        },
+                        {
+                            "auto center of mass": true
+                        },
+                        {
+                            "center of mass": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "auto tensor": true
+                        },
+                        {
+                            "inertia tensor": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                            }
+                        },
+                        {
+                            "inertia tensor rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "kinematic": false
+                        },
+                        {
+                            "type": "DYNAMIC"
+                        }
+                    ]
+                },
+                {
+                    "Collider": [
+                        {
+                            "show bounds": true
+                        },
+                        {
+                            "trigger": false
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "collider type": "CUBE"
+                        },
+                        {
+                            "material": {
+                                "static friction": 0.6000000238418579,
+                                "dynamic friction": 0.6000000238418579,
+                                "restitution": 0.0
+                            }
+                        },
+                        {
+                            "geometry": {
+                                "half extents": {
+                                    "x": 6.0,
+                                    "y": 6.0,
+                                    "z": 6.0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539406,
+            "uuid": "5b451bec7b8109c6",
+            "mName": "camera_placeholder",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Camera": [
+                        {
+                            "movement speed": 20.0
+                        },
+                        {
+                            "zoom": 40.0
+                        },
+                        {
+                            "target": {
+                                "x": 11.0,
+                                "y": 53.0,
+                                "z": 170.0
+                            }
+                        },
+                        {
+                            "yaw": 0.0
+                        },
+                        {
+                            "pitch": 0.0
+                        },
+                        {
+                            "role": "CAMERA"
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 10.0,
+                                "y": 53.0,
+                                "z": 170.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Audio": [
+                        {
+                            "name": ""
+                        },
+                        {
+                            "volume": 1.0
+                        },
+                        {
+                            "loop": false
+                        },
+                        {
+                            "pitch": 1.0
+                        },
+                        {
+                            "pan": 0.0
+                        },
+                        {
+                            "mute": false
+                        },
+                        {
+                            "onAwake": false
+                        },
+                        {
+                            "type": "SFX"
+                        },
+                        {
+                            "3D mode": false
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 486539406
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.CameraLookAtSpot": {
+                                    "CameraPosition": {
+                                        "type": "Vector3",
+                                        "value": {
+                                            "x": 16.0,
+                                            "y": 53.0,
+                                            "z": 110.0
+                                        }
+                                    },
+                                    "LookAtPosition": {
+                                        "type": "Vector3",
+                                        "value": {
+                                            "x": 16.0,
+                                            "y": 53.0,
+                                            "z": 10.0
+                                        }
+                                    }
+                                },
+                                "AeonScripts.ScoreMenuAnnouncer": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539407,
+            "uuid": "f734a74eeb25ec51",
+            "mName": "Player1Points",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -225.0,
+                                "y": -130.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.7000000476837158,
+                                "y": 1.7000000476837158,
+                                "z": 1.7000000476837158
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 486539407
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.ScoreMenu": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/container.dds"
+                        },
+                        {
+                            "Format": "Word"
+                        },
+                        {
+                            "Font Text": "0"
+                        },
+                        {
+                            "Font Type": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539408,
+            "uuid": "5d009a6c3c2c5e7d",
+            "mName": "Player2Points",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": -125.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.7000000476837158,
+                                "y": 1.7000000476837158,
+                                "z": 1.7000000476837158
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 486539408
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.ScoreMenu": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/container.dds"
+                        },
+                        {
+                            "Format": "Word"
+                        },
+                        {
+                            "Font Text": "0"
+                        },
+                        {
+                            "Font Type": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 0.0,
+                                "y": 0.47058820724487305,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539409,
+            "uuid": "9a9dc469585320c2",
+            "mName": "Background",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 18.739999771118164,
+                                "y": 49.369998931884766,
+                                "z": -30.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 0.0949999988079071,
+                                "y": 0.10000000149011612,
+                                "z": 0.0949999988079071
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/scoreTexture.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/objects/Plane.bin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539410,
+            "uuid": "9f05e0dec506c010",
+            "mName": "ScoreInGameBGM",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Audio": [
+                        {
+                            "name": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/audios/WinnerScreenBGM.wav"
+                        },
+                        {
+                            "volume": 0.699999988079071
+                        },
+                        {
+                            "loop": true
+                        },
+                        {
+                            "pitch": 1.0
+                        },
+                        {
+                            "pan": 0.0
+                        },
+                        {
+                            "mute": false
+                        },
+                        {
+                            "onAwake": false
+                        },
+                        {
+                            "type": "BGM"
+                        },
+                        {
+                            "3D mode": false
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 486539410
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.WinnerBGM": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539411,
+            "uuid": "4d67a9fcac07dd5b",
+            "mName": "SFX Podium Rising SFX",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Audio": [
+                        {
+                            "name": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/audios/Rising Score.wav"
+                        },
+                        {
+                            "volume": 0.5
+                        },
+                        {
+                            "loop": false
+                        },
+                        {
+                            "pitch": 1.0
+                        },
+                        {
+                            "pan": 0.0
+                        },
+                        {
+                            "mute": false
+                        },
+                        {
+                            "onAwake": true
+                        },
+                        {
+                            "type": "SFX"
+                        },
+                        {
+                            "3D mode": false
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 486539411
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.RisingPodiumSFX": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539412,
+            "uuid": "ca8d43120a748cc9",
+            "mName": "Platform1Top",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -24.450000762939453,
+                                "y": 7.0,
+                                "z": 0.550000011920929
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 18.0,
+                                "y": 13.0,
+                                "z": 18.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/TopRed.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/objects/PedalstalTop.bin"
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "mass": 1.0
+                        },
+                        {
+                            "linear drag": 0.5
+                        },
+                        {
+                            "angular drag": 0.5
+                        },
+                        {
+                            "use gravity": false
+                        },
+                        {
+                            "auto center of mass": true
+                        },
+                        {
+                            "center of mass": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "auto tensor": true
+                        },
+                        {
+                            "inertia tensor": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                            }
+                        },
+                        {
+                            "inertia tensor rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "kinematic": false
+                        },
+                        {
+                            "type": "STATIC"
+                        }
+                    ]
+                },
+                {
+                    "Collider": [
+                        {
+                            "show bounds": true
+                        },
+                        {
+                            "trigger": false
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 3.700000047683716,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "collider type": "CUBE"
+                        },
+                        {
+                            "material": {
+                                "static friction": 0.6000000238418579,
+                                "dynamic friction": 0.6000000238418579,
+                                "restitution": 0.0
+                            }
+                        },
+                        {
+                            "geometry": {
+                                "half extents": {
+                                    "x": 13.020000457763672,
+                                    "y": 3.569999933242798,
+                                    "z": 14.699999809265137
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539413,
+            "uuid": "427fe2ee3d132e42",
+            "mName": "Platform2Top",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 19.549999237060547,
+                                "y": 7.0,
+                                "z": 0.550000011920929
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 18.0,
+                                "y": 13.0,
+                                "z": 18.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/TopBlue.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/objects/PedalstalTop.bin"
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "mass": 1.0
+                        },
+                        {
+                            "linear drag": 0.5
+                        },
+                        {
+                            "angular drag": 0.5
+                        },
+                        {
+                            "use gravity": false
+                        },
+                        {
+                            "auto center of mass": true
+                        },
+                        {
+                            "center of mass": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "auto tensor": true
+                        },
+                        {
+                            "inertia tensor": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5
+                            }
+                        },
+                        {
+                            "inertia tensor rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "kinematic": false
+                        },
+                        {
+                            "type": "STATIC"
+                        }
+                    ]
+                },
+                {
+                    "Collider": [
+                        {
+                            "show bounds": true
+                        },
+                        {
+                            "trigger": false
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 3.680000066757202,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "collider type": "CUBE"
+                        },
+                        {
+                            "material": {
+                                "static friction": 0.6000000238418579,
+                                "dynamic friction": 0.6000000238418579,
+                                "restitution": 0.0
+                            }
+                        },
+                        {
+                            "geometry": {
+                                "half extents": {
+                                    "x": 13.649999618530273,
+                                    "y": 3.4679999351501465,
+                                    "z": 14.829999923706055
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539414,
+            "uuid": "f6c401378e832437",
+            "mName": "Confetti Spawner",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Audio": [
+                        {
+                            "name": ""
+                        },
+                        {
+                            "volume": 1.0
+                        },
+                        {
+                            "loop": false
+                        },
+                        {
+                            "pitch": 1.0
+                        },
+                        {
+                            "pan": 0.0
+                        },
+                        {
+                            "mute": false
+                        },
+                        {
+                            "onAwake": false
+                        },
+                        {
+                            "type": "SFX"
+                        },
+                        {
+                            "3D mode": false
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 486539414
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.ConfettiSpawner": {
+                                    "confettiNum": {
+                                        "type": "Int",
+                                        "value": 100
+                                    }
+                                },
+                                "AeonScripts.ScoreCheer": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539415,
+            "uuid": "32e98d49bde5facd",
+            "mName": "ReturnButton",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 660.0,
+                                "y": 483.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 300.0,
+                                "y": 300.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/textures/NextLevelButtonlvl1winscreen.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\roywa\\Desktop\\coffebreak\\GAM300-Engine\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 486539416,
+            "uuid": "412fbd2f3b47117b",
+            "mName": "Light",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 13.170999526977539,
+                                "y": 60.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Lighting": [
+                        {
+                            "Position": {
+                                "x": 13.170999526977539,
+                                "y": 60.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Color": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "Light Type": "DIRECTIONAL"
+                        },
+                        {
+                            "Direction": {
+                                "x": 0.0,
+                                "y": -1.0,
+                                "z": 0.1899999976158142
+                            }
+                        },
+                        {
+                            "Intensity": 1
+                        },
+                        {
+                            "Cutoff": 12
+                        },
+                        {
+                            "Outer Cutoff": 17
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Settings": [
+        {
+            "ambient light": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            }
+        }
+    ]
+}

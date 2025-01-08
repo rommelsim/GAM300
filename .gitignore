@@ -1,0 +1,45 @@
+# # Prerequisites
+# *.d
+
+# # Compiled Object files
+# *.slo
+# *.lo
+# *.o
+
+# # Precompiled Headers
+# *.gch
+# *.pch
+
+# # Compiled Dynamic libraries
+# *.so
+# *.dylib
+
+# # Fortran module files
+# *.mod
+# *.smod
+
+# # Compiled Static libraries
+# *.lai
+# *.la
+# *.a
+
+# # Executables
+# *.exe
+# *.out
+# *.app
+
+# Others
+/bin
+
+# Visual Studios
+.vs/
+x64/
+**.user
+*.log
+*.tlog
+*.ilk
+*.idb
+*.pdb
+*.recipe
+*.iobj
+Editor/*.obj

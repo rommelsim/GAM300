@@ -1,0 +1,2391 @@
+{
+    "scene_info": {
+        "type": 0
+    },
+    "Entities": [
+        {
+            "id": 33555630,
+            "uuid": "cfb8c19fbaa6d013",
+            "mName": "BGMSlider",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -180.0,
+                                "y": -75.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 350.0,
+                                "y": 400.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 9
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Unslected.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555631,
+            "uuid": "d2d72ac9d11c06f9",
+            "mName": "BGMButton",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 145.0,
+                                "y": -75.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 40.0,
+                                "y": 30.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 5
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Unselected_Indicator.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555632,
+            "uuid": "3ac47edc5924dffb",
+            "mName": "SFXSlider",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -180.0,
+                                "y": 15.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 350.0,
+                                "y": 400.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 7
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Unslected.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555633,
+            "uuid": "93120f2208b6318e",
+            "mName": "SFXButton",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 145.0,
+                                "y": 15.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 40.0,
+                                "y": 30.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 6
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Unselected_Indicator.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555634,
+            "uuid": "9c831a13563b5836",
+            "mName": "VoiceSlider",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -180.0,
+                                "y": 105.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 350.0,
+                                "y": 400.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 12
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Unslected.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555635,
+            "uuid": "f3f71ec24dde06ac",
+            "mName": "VoiceButton",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 145.0,
+                                "y": 105.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 40.0,
+                                "y": 30.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 8
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Unselected_Indicator.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555636,
+            "uuid": "12767e4e136194bb",
+            "mName": "GammaSlider",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -180.0,
+                                "y": 350.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 350.0,
+                                "y": 400.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 9
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Unslected.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555637,
+            "uuid": "d3a37667dbbc33d7",
+            "mName": "GammaButton",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 145.0,
+                                "y": 350.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 40.0,
+                                "y": 30.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 8
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Unselected_Indicator.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555638,
+            "uuid": "47f8b6c3f096b0a0",
+            "mName": "Light",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 10.0,
+                                "y": 0.0,
+                                "z": 20.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Lighting": [
+                        {
+                            "Position": {
+                                "x": 10.0,
+                                "y": 0.0,
+                                "z": 20.0
+                            }
+                        },
+                        {
+                            "Color": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "Light Type": "DIRECTIONAL"
+                        },
+                        {
+                            "Direction": {
+                                "x": -0.0,
+                                "y": -1.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Intensity": 1
+                        },
+                        {
+                            "Cutoff": 12
+                        },
+                        {
+                            "Outer Cutoff": 17
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555639,
+            "uuid": "7795ccaf095a06e2",
+            "mName": "BGMPercent",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 95.0,
+                                "y": 23.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.25,
+                                "y": 1.25,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 15
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/container.dds"
+                        },
+                        {
+                            "Format": "Word"
+                        },
+                        {
+                            "Font Text": "%"
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555640,
+            "uuid": "f00e4123a0b8afdd",
+            "mName": "SFXPercent",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 95.0,
+                                "y": -19.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.25,
+                                "y": 1.25,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 15
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/container.dds"
+                        },
+                        {
+                            "Format": "Word"
+                        },
+                        {
+                            "Font Text": "%"
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555641,
+            "uuid": "7e2e99fe72f06ca6",
+            "mName": "VoicePercent",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 95.0,
+                                "y": -58.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.25,
+                                "y": 1.25,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 15
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/container.dds"
+                        },
+                        {
+                            "Format": "Word"
+                        },
+                        {
+                            "Font Text": "%"
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555642,
+            "uuid": "d26795efd072a238",
+            "mName": "GammaPercent",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 95.0,
+                                "y": -167.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.25,
+                                "y": 1.25,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 18
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/container.dds"
+                        },
+                        {
+                            "Format": "Word"
+                        },
+                        {
+                            "Font Text": "%"
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555643,
+            "uuid": "f121c6fbce56b8cb",
+            "mName": "BGMSound",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Audio": [
+                        {
+                            "name": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/audios/In-Game BGM2.wav"
+                        },
+                        {
+                            "volume": 1.0
+                        },
+                        {
+                            "loop": true
+                        },
+                        {
+                            "pitch": 1.0
+                        },
+                        {
+                            "pan": 0.0
+                        },
+                        {
+                            "mute": false
+                        },
+                        {
+                            "onAwake": true
+                        },
+                        {
+                            "type": "BGM"
+                        },
+                        {
+                            "3D mode": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555644,
+            "uuid": "25924089dc588b09",
+            "mName": "SFXSound",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Audio": [
+                        {
+                            "name": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/audios/Jump1.wav"
+                        },
+                        {
+                            "volume": 1.0
+                        },
+                        {
+                            "loop": false
+                        },
+                        {
+                            "pitch": 1.0
+                        },
+                        {
+                            "pan": 0.0
+                        },
+                        {
+                            "mute": false
+                        },
+                        {
+                            "onAwake": false
+                        },
+                        {
+                            "type": "SFX"
+                        },
+                        {
+                            "3D mode": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555645,
+            "uuid": "521c27ba87bfe64e",
+            "mName": "VoiceSound",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Audio": [
+                        {
+                            "name": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/audios/Anouncer_3.wav"
+                        },
+                        {
+                            "volume": 1.0
+                        },
+                        {
+                            "loop": false
+                        },
+                        {
+                            "pitch": 1.0
+                        },
+                        {
+                            "pan": 0.0
+                        },
+                        {
+                            "mute": false
+                        },
+                        {
+                            "onAwake": false
+                        },
+                        {
+                            "type": "Voice"
+                        },
+                        {
+                            "3D mode": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555646,
+            "uuid": "5ce296c0cf1028f4",
+            "mName": "Camera",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Camera": [
+                        {
+                            "movement speed": 20.0
+                        },
+                        {
+                            "zoom": 20.0
+                        },
+                        {
+                            "target": {
+                                "x": -4.371138828673793e-8,
+                                "y": 0.0,
+                                "z": -1.0
+                            }
+                        },
+                        {
+                            "yaw": -90.0
+                        },
+                        {
+                            "pitch": 0.0
+                        },
+                        {
+                            "role": "CAMERA"
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 33555646
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.CameraLookAtSpot": {
+                                    "CameraPosition": {
+                                        "type": "Vector3",
+                                        "value": {
+                                            "x": 16.0,
+                                            "y": 53.0,
+                                            "z": 110.0
+                                        }
+                                    },
+                                    "LookAtPosition": {
+                                        "type": "Vector3",
+                                        "value": {
+                                            "x": 16.0,
+                                            "y": 53.0,
+                                            "z": 10.0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555647,
+            "uuid": "cc22eb17e611ffc5",
+            "mName": "BlueCat",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 35.0,
+                                "y": 46.0,
+                                "z": 50.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 8.0,
+                                "y": 8.0,
+                                "z": 8.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.1745329201221466,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 33555647
+                        },
+                        {
+                            "scripts": {}
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/bluecat.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/Cat2.bin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555648,
+            "uuid": "c46f3609bb6c0835",
+            "mName": "RedCat",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 43.0,
+                                "y": 45.79999923706055,
+                                "z": 50.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 8.0,
+                                "y": 8.0,
+                                "z": 8.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.5235987901687622,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/redcat.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/Cat2.bin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555649,
+            "uuid": "564669ae54bd0ca8",
+            "mName": "MasterSlider",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": -180.0,
+                                "y": -170.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 350.0,
+                                "y": 400.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 3
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Selected.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555650,
+            "uuid": "59008de553b5bf7f",
+            "mName": "MasterButton",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 145.0,
+                                "y": -170.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 40.0,
+                                "y": 30.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 0
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Selected_Indicator.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555651,
+            "uuid": "3e8483ae6426eb0f",
+            "mName": "Background",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 960.0,
+                                "y": 970.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 33555651
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.OptionsMenu": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 12
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/NewSettingsBGBig.dds"
+                        },
+                        {
+                            "Format": "Image"
+                        },
+                        {
+                            "Font Text": ""
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555652,
+            "uuid": "fa4aebc674125c53",
+            "mName": "MasterPercent",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 95.0,
+                                "y": 63.0,
+                                "z": -0.25180673599243164
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 1.25,
+                                "y": 1.25,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "Layer": "Default"
+                        },
+                        {
+                            "Order": 15
+                        },
+                        {
+                            "Texture Path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/container.dds"
+                        },
+                        {
+                            "Format": "Word"
+                        },
+                        {
+                            "Font Text": "%"
+                        },
+                        {
+                            "Font Type": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/fonts/LilitaOne-Regular.ttf"
+                        },
+                        {
+                            "Font Color": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "Opacity": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555653,
+            "uuid": "56307bcd824775f5",
+            "mName": "Ground",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 41.0,
+                                "y": 35.0,
+                                "z": 45.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 12.0,
+                                "y": 12.0,
+                                "z": 12.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": -0.05235987901687622,
+                                "y": 1.3962633609771729,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/WalkWaySTexture.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/WalkWayS.bin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555654,
+            "uuid": "43d2d85c0cb1c4a8",
+            "mName": "HotAirBalloon",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 55.0,
+                                "y": 60.0,
+                                "z": 20.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 0.800000011920929,
+                                "y": 0.800000011920929,
+                                "z": 0.800000011920929
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Behaviour": [
+                        {
+                            "ownerID": 33555654
+                        },
+                        {
+                            "scripts": {
+                                "AeonScripts.BalloonMove": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Render": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/HotAirBalloonTexture.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "model_path": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/HotAirBalloon.bin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555655,
+            "uuid": "0f62cca4e356fbb9",
+            "mName": "RedBalloon",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 52.0,
+                                "y": 30.0,
+                                "z": 15.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 5.0,
+                                "y": 5.0,
+                                "z": 5.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Particles": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/red.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "max_particles": 5
+                        },
+                        {
+                            "spawn_rate": 5
+                        },
+                        {
+                            "initial_life": 8.0
+                        },
+                        {
+                            "gravity": {
+                                "x": 0.0,
+                                "y": -9.800000190734863,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "min_velocity": {
+                                "x": -10.0,
+                                "y": 20.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "max_velocity": {
+                                "x": 10.0,
+                                "y": 40.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "model": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/Balloon.bin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555656,
+            "uuid": "c16aa3592beefee1",
+            "mName": "BlueBalloon",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 47.0,
+                                "y": 20.0,
+                                "z": 18.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 5.0,
+                                "y": 5.0,
+                                "z": 5.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Particles": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Blue.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "max_particles": 5
+                        },
+                        {
+                            "spawn_rate": 5
+                        },
+                        {
+                            "initial_life": 7.5
+                        },
+                        {
+                            "gravity": {
+                                "x": 0.0,
+                                "y": -9.800000190734863,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "min_velocity": {
+                                "x": -7.0,
+                                "y": 20.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "max_velocity": {
+                                "x": 15.0,
+                                "y": 65.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "model": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/Balloon.bin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555657,
+            "uuid": "68743d39325a2a4f",
+            "mName": "GreenBalloon",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 43.0,
+                                "y": 25.0,
+                                "z": 16.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 5.0,
+                                "y": 5.0,
+                                "z": 5.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Particles": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/Green.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "max_particles": 7
+                        },
+                        {
+                            "spawn_rate": 6
+                        },
+                        {
+                            "initial_life": 6.5
+                        },
+                        {
+                            "gravity": {
+                                "x": 0.0,
+                                "y": -9.800000190734863,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "min_velocity": {
+                                "x": -10.0,
+                                "y": 20.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "max_velocity": {
+                                "x": 10.0,
+                                "y": 50.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "model": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/Balloon.bin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33555658,
+            "uuid": "16738135c7748a32",
+            "mName": "YellowBalloon",
+            "mPrefab": "",
+            "mParent": 5001,
+            "mIsChild": false,
+            "mIsParent": false,
+            "mIsActive": true,
+            "Components": [
+                {
+                    "Transform": [
+                        {
+                            "position": {
+                                "x": 40.0,
+                                "y": 20.0,
+                                "z": 17.0
+                            }
+                        },
+                        {
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            }
+                        },
+                        {
+                            "scale": {
+                                "x": 5.0,
+                                "y": 5.0,
+                                "z": 5.0
+                            }
+                        },
+                        {
+                            "euler": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "On rotation": true
+                        }
+                    ]
+                },
+                {
+                    "Particles": [
+                        {
+                            "diffuse_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/yellow.dds"
+                        },
+                        {
+                            "specular_texture": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/textures/specular.dds"
+                        },
+                        {
+                            "max_particles": 8
+                        },
+                        {
+                            "spawn_rate": 4
+                        },
+                        {
+                            "initial_life": 6.0
+                        },
+                        {
+                            "gravity": {
+                                "x": 0.0,
+                                "y": -9.800000190734863,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "offset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "min_velocity": {
+                                "x": -8.0,
+                                "y": 25.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "max_velocity": {
+                                "x": 8.0,
+                                "y": 60.0,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "model": "C:\\Users\\aocl6\\Documents\\GAM300\\AeonCore\\Editor/resources/objects/Balloon.bin"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Settings": [
+        {
+            "ambient light": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            }
+        }
+    ]
+}

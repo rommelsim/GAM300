@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{ae2b40b4-d508-4579-9cd4-739ccddcd465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{8f6fbe58-0e9d-4e67-845b-5abd55469cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Panels">
+      <UniqueIdentifier>{bd6679d9-ddac-4886-92ce-bf15fefb9c69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AeonCore\dependencies\imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AeonCore\dependencies\imgui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AeonCore\dependencies\imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AeonCore\dependencies\imgui\imgui_impl_glfw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AeonCore\dependencies\imgui\imgui_impl_opengl3.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AeonCore\dependencies\imgui\imgui_stdlib.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AeonCore\dependencies\imgui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AeonCore\dependencies\imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AeonCore\dependencies\ImGuizmo\GraphEditor.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AeonCore\dependencies\ImGuizmo\ImCurveEdit.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AeonCore\dependencies\ImGuizmo\ImGradient.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AeonCore\dependencies\ImGuizmo\ImGuizmo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AeonCore\dependencies\ImGuizmo\ImSequencer.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\EditorLayer.cpp" />
+    <ClCompile Include="src\ImGuiUtility.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Panels\EditorViewport.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Panels\GameViewport.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Panels\MenuBar.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Panels\PerformanceGraph.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Panels\PropertiesPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Panels\SceneHierarchy.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorApp.cpp" />
+    <ClCompile Include="src\Panels\DebugConsole.cpp" />
+    <ClCompile Include="src\Panels\AssetBrowser.cpp" />
+    <ClCompile Include="src\Panels\Toolbar.cpp" />
+    <ClCompile Include="src\Panels\Camera.cpp" />
+    <ClCompile Include="src\Panels\Model.cpp" />
+    <ClCompile Include="..\AeonCore\dependencies\tracy\TracyClient.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AeonCore\dependencies\imgui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\imgui\imgui_impl_glfw.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\imgui\imgui_impl_opengl3.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\imgui\imgui_stdlib.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\imgui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\imgui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\imgui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\ImGuizmo\GraphEditor.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\ImGuizmo\ImCurveEdit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\ImGuizmo\ImGradient.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\ImGuizmo\ImGuizmo.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\ImGuizmo\ImSequencer.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AeonCore\dependencies\ImGuizmo\ImZoomSlider.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGuiUtility.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Panels\AssetBrowser.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Panels\DebugConsole.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Panels\EditorViewport.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Panels\GameViewport.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Panels\MenuBar.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Panels\PerformanceGraph.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Panels\PropertiesPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Panels\SceneHierarchy.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EditorLayer.h" />
+    <ClInclude Include="src\EditorApp.h" />
+    <ClInclude Include="src\Panels\Toolbar.h" />
+    <ClInclude Include="src\Panels\Camera.h" />
+    <ClInclude Include="src\Panels\Model.h" />
+    <ClInclude Include="..\AeonCore\dependencies\tracy\Tracy.hpp" />
+    <ClInclude Include="..\AeonCore\dependencies\tracy\TracyC.h" />
+    <ClInclude Include="..\AeonCore\dependencies\tracy\TracyD3D11.hpp" />
+    <ClInclude Include="..\AeonCore\dependencies\tracy\TracyD3D12.hpp" />
+    <ClInclude Include="..\AeonCore\dependencies\tracy\TracyLua.hpp" />
+    <ClInclude Include="..\AeonCore\dependencies\tracy\TracyOpenCL.hpp" />
+    <ClInclude Include="..\AeonCore\dependencies\tracy\TracyOpenGL.hpp" />
+    <ClInclude Include="..\AeonCore\dependencies\tracy\TracyVulkan.hpp" />
+  </ItemGroup>
+</Project>
